@@ -1,0 +1,32 @@
+.main {
+    width: 600px;
+    background-color: rgb(204, 120, 197);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+li {
+    padding: 5px 0;
+
+}
+
+.link {
+    margin: 10px;
+    text-decoration: none;
+    color: #ab67d2;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e9b4e0;
+
+}
+
+ul {
+    text-align: left;
+}
+.photo{
+    padding: 10px;
+    height: 600px;
+    width: 350px;
+}
