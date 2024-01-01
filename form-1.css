@@ -1,0 +1,99 @@
+        @font-face {
+            font-family: "Nunito-Light";
+            font-display: swap;
+            src: url("../fonts/Nunito-Light.ttf") format("opentype");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        body{
+            background-color: gray;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'REM', sans-serif;
+        }
+        .containerwhite{
+            width: 500px;
+                margin: 0 auto;
+                padding-left: 6px;
+                padding-right: 8px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                background-color: rgb(5, 89, 5)
+            
+        }
+        .containergreen{
+            margin: auto;
+            width: 500px;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            background-color: white
+            }
+
+        .container2{
+            width: 500px;
+            padding-top: 1px;
+            padding-bottom: 65px;
+            background-color: rgba(233, 156, 14, 0.855);
+        }
+        .content {
+            background-color: rgb(1, 1, 111);
+            margin: auto;
+            height: 450px;
+        }
+        .text1{
+        padding-left: 10px;
+            color:rgba(245, 130, 14, 0.943);
+        }
+
+        .form-field{
+            color:rgba(233, 156, 14, 0.855); 
+            padding-left: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .form-label{
+        display: inline-block;
+        width: 40%;
+        margin-right: 16px;
+        text-align: right;
+
+        }
+        .form-input{
+            width: 50%;
+            border-radius: 5px;
+        }
+        .buttonSubmit{
+            border-radius: 5px;
+        background-color: red;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+        color: azure;
+        }
+        .button{
+            text-align: end;
+        }
+        .buttonCunsel{
+        border-radius: 5px;
+            background-color: green;
+        margin-right: 40px;
+        margin-top: 30px;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+        color: azure;
+        }
+
+        .form-checkbox {
+        text-align: right;
+            color: rgba(233, 156, 14, 0.855);
+        
+        }
+
+        .form-label-checkbox{
+        margin-right: 48px;
+        display: inline-flexbox;
+        }
