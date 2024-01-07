@@ -1,0 +1,93 @@
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F9F7E8;
+    padding: 21px 35px;
+}
+.list-ul{
+
+}
+.link-a-header {
+    color: #333;
+    /* Adjust link color */
+    text-decoration: none;
+}
+
+.section-Knowledge {
+    background: #D52047;
+    padding: 100px 0;
+    /* Adjust padding as needed */
+    text-align: center;
+    color: #fff;
+    /* Adjust text color */
+}
+
+.section-About {
+    background: #EFF8F6;
+    color: #333;
+    /* Adjust text color */
+    padding: 40px;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 60%;
+}
+
+.about-content h2,
+.about-content p {
+    background-color: #EFF8F6;}
+
+
+
+
+    .section-Features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            /* Adjust the gap as needed */
+            text-align: center;
+        }
+    
+        .features-title {
+            margin-bottom: 20px;
+        }
+    
+        .card {
+            /* You may need to adjust the card styles as needed */
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+    
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        .card h3 {
+            margin-top: 10px;
+        }
+    
+        .card p {
+            margin-top: 10px;
+        }
+    
+        .card a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+
+
+        
